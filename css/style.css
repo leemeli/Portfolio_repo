@@ -1,0 +1,79 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+    font-family: 'Arimo', sans-serif;
+    background: white;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 53%, rgba(175,165,153,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(53%, rgba(246,246,246,1)), color-stop(100%, rgba(175,165,153,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 53%, rgba(175,165,153,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 53%, rgba(175,165,153,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 53%, rgba(175,165,153,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 53%, rgba(175,165,153,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#afa599', GradientType=0 );
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+}
+
+#frontTitle {
+    color: #968a79;
+    font-size: 3.2vw;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80vw;
+    height: 10vw;
+    margin: auto;
+    text-align: center;
+}
+
+#frontTitle h1 {
+    color: #766c5f;
+    font-size: 10vw;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 5px;
+}
+
+nav li {
+    padding: 15px;
+    display: inline-block;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li,
+nav ul {
+    font-size: 4vw;
+    list-style: none;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+nav a:link,
+nav a:visited {
+    color: #968a79;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #766c5f;
+}
+.fa {
+    font-size: 6vw;
+}
