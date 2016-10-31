@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <script type="text/javascript" src="js/webScript.js"></script>
         <!-- Start of Metadata -->
       <meta charset="utf-8">
       <meta name="description" content="Melody Lee's professional website">
@@ -10,35 +9,76 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- End of Metadata -->
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-       <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700" rel="stylesheet">
-       <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
       <link rel="stylesheet" type="text/css" href="css/style.css">
       <link rel="shortcut icon" type="image/png" href="img/logo.png"/>
         <title>Melody Lee</title>
     </head>
     <body>
+        <div id="background"></div>
         <header role="banner" class="container">
          <nav role="navigation">
             <ul>
+                <a href="#work" aria-label="Go to Work">
                <li>
-                  <a href="#" aria-label="Go to Home"><i class="fa fa-home" aria-hidden="true" aria-label="Home Icon"></i></a>
-               </li>
+                  Work
+               </li></a>
+               <a href="#contact" aria-label="Go to Contact">
                <li>
-                  <a href="#about" aria-label="Go to About">About</a>
-               </li>
-               <li>
-                  <a href="#work" aria-label="Go to Work">Work</a>
-               </li>
-               <li>
-                  <a href="#contact" aria-label="Go to Contact">Contact</a>
-               </li>
+                  Contact
+               </li></a>
             </ul>
          </nav>
          </header>
          <div id="frontTitle">
-            <h1>Melody Lee</h1>
-            a designer with a knack for coding
+            <h1 class="noselect">Melody Lee</h1>
         </div>
+        <div id="main">
+            <section id="intro">
+                <h2>A coder with a knack for design</h2>
+                <div id="headshotOuter"><img src="img/headshot.jpg" id="headshot" alt="Melody teaching a computer science course"/></div>
+                <p><strong>Hello there!</strong> I am junior at the University of Washington pursuing a degree in Informatics with a concentration in either <em>Data Science</em> or <em>Human-Computer Interaction.</em> 
+                I taught myself how to code HTML and CSS when I was only nine years old, and have since recreationally created several webpages. I never thought that my interest in coding would go beyond web design; 
+                however in college, I decided to take a Computer Science course for fun.</p><p> I quickly realized that I have a talent for development and went from taking business prerequisites to Informatics prerequisites. 
+                I was admitted into the competitive <a href="https://ischool.uw.edu/academics/informatics" target="_blank">Informatics</a> <strong>and</strong> <a href="http://www.hcde.washington.edu/bs" target="_blank">HCDE</a> programs this past summer, and am now a Teaching 
+                Assistant within the iSchool and a Web Development intern at <a href="http://www.hercampus.com/" target="_blank">Her Campus</a>. </p>
+
+            </section>
+            <section id="whyMe">
+                    <h2>So what stands out?</h2>
+            <ul class="flex-container">
+                <li class="flex-item">
+                   <i class="fa fa-code" aria-hidden="true"></i> 
+                   <h3>Technical</h3>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aliquid rerum voluptas repellendus deleniti ducimus ullam atque aut harum esse magni, laudantium ex a vitae alias corrupti exercitationem, nostrum fugit.
+                </li>
+               <li class="flex-item">
+                   <i class="fa fa-star-o" aria-hidden="true"></i> 
+                   <h3>Leadership</h3>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo adipisci beatae labore sed, eum repellat! Aspernatur dolores suscipit nemo sequi, corporis, quibusdam aperiam hic aut ipsum autem soluta, deserunt reprehenderit.
+                </li>
+                <li class="flex-item">
+                   <i class="fa fa-briefcase" aria-hidden="true"></i> 
+                   <h3>Professionalism</h3>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis facere velit perspiciatis consectetur consequatur, impedit veritatis ex perferendis, a dolorum enim dicta distinctio repellat architecto cupiditate. Earum nulla aspernatur, quisquam.
+                </li>
+                <li class="flex-item">
+                   <i class="fa fa-coffee" aria-hidden="true"></i> 
+                   <h3>Fun!</h3>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde cum non quaerat ex amet repudiandae aperiam laudantium porro sit voluptatum debitis ea aliquam, ratione corporis quibusdam temporibus nobis vitae molestiae?
+                </li>
+            </ul>
+            </section>
+            <footer>
+                <h3>Melody Lee</h3>
+                <hr>
+                Development &nbsp;&nbsp;•&nbsp;&nbsp;  User Experience
+            </footer>
+        </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/webScript.js"></script>
     </body>
 </htm>
