@@ -8,9 +8,8 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    background: white;
-    background: linear-gradient(rgba(255,255,255,1) 0%, rgba(246,246,246,0.95) 50%, rgba(175,165,153,0.1) 100%), url("../img/background.png") no-repeat center; 
-    background-attachment: fixed;   
+    background: #39342d;
+    
 }
 
 h1 {
@@ -48,7 +47,7 @@ h3 {
 
 #frontTitle {
     opacity:  0;
-    color: #968a79;
+    color: white;
     font-size: 14px;
     display: block;
     position: absolute;
@@ -64,7 +63,7 @@ h3 {
 }
 
 #frontTitle h1 {
-    color: #766c5f;
+    color: white;
     font-size: 30px;
     margin: 0;
     padding: 0;
@@ -77,7 +76,6 @@ nav li {
 }
 
 nav ul {
-    border-top: 1px solid #968a79;
     padding-top: 0px;
     opacity: 0;
     padding: 0;
@@ -101,7 +99,7 @@ nav ul {
 }
 nav a:link,
 nav a:visited {
-    color: #968a79;
+    color: white;
     text-decoration: none;
 }
 nav a:hover {
@@ -149,6 +147,9 @@ strong {
 @media (min-width: 768px) {
     body {
         font-size: 18px;
+        background-color: white;
+        background: linear-gradient(rgba(255,255,255,1) 0%, rgba(246,246,246,0.95) 50%, rgba(175,165,153,0.1) 100%), url("../img/background.png") no-repeat center; 
+        background-attachment: fixed;   
     }
     #headshot {
         float: left;
@@ -165,12 +166,20 @@ strong {
     .fa {
         float: none;
     }
+    nav a:link,
+    nav a:visited {
+        color: #968a79;
+    }
     #frontTitle {
+        color: #968a79;
         width: 35vw;
         position: absolute;
         left: 0; 
         top: 10px;
         margin: 0;
+    }
+    #frontTitle h1 {
+        color: #766c5f;
     }
     nav ul {
         text-align: right; 
