@@ -138,6 +138,12 @@ nav a:hover {
     padding-top: 20px;
 }
 
+#portfolio {
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+}
+
 #headshotOuter {
     text-align: center;
 }
