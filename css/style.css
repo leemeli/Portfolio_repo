@@ -70,6 +70,13 @@ h3 {
     letter-spacing: 5px;
 }
 
+a:link, a:visited {
+    color: #968a79;
+}
+a:hover {
+    color: #39342d;
+}
+
 nav li {
     padding: 20px 25px 10px 25px;
     display: inline-block;
