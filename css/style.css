@@ -151,18 +151,13 @@ strong {
     font-style: normal;
 }
 
-@media (min-height: 900px) {
-    body {  
-      background: linear-gradient(rgba(255,255,255,1) 0%, rgba(246,246,246,0.95) 50%, rgba(175,165,153,0.1) 100%); 
-    }
-}
-
 @media (min-width: 768px) {
     body {
         font-size: 18px;
         background-color: white;
         background: linear-gradient(rgba(255,255,255,1) 0%, rgba(246,246,246,0.95) 50%, rgba(175,165,153,0.1) 100%), url("../img/background.png") no-repeat center; 
         background-attachment: fixed;   
+        background-size: cover;
     }
     #headshot {
         float: left;
